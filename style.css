@@ -1,0 +1,322 @@
+/*=======header=====*/
+
+header {
+    background-color:#f5fcfd ;
+    height: 100px;
+    border-bottom: 1px solid #dcdcdc;
+
+
+}
+#header #logo {
+    float:left;
+    padding-top:35px;
+}
+
+#header #logo h1 {
+    font-size: 36px;
+   line-height: 24px;
+   color: #0f7bff;
+   font-family: "Quicksand";
+   font-weight: 700;
+   padding-left: 140px;
+
+}
+
+#header #menu {
+    float: right;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 500;
+    padding-right: 140px;
+    padding-top:35px;
+
+}
+
+#menu a{
+    padding-right: 30px;
+    color: #929292;
+}
+#menu a:hover{
+    color:#0f7bff;
+    text-decoration: none;
+}
+ #menu #sign-up {
+    padding: 10px 30px 10px 30px;
+    border: 2px solid #0f7bff;
+    background-color: #0f7bff;
+    color: white;
+    border-radius: 25px;
+}
+
+#menu #sign-up:hover{
+    background-color: white;
+    color:#0f7bff;
+
+}
+
+/*==========Log in======*/
+#login{
+    padding-top: 90px;
+}
+#login h1{
+    font-size: 32px;
+    line-height: 36px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#login p{
+    width: 750px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*======button=====*/
+
+#button{
+    padding: 30px 30px;
+}
+
+
+#button #face{
+    font-size: 16px;
+line-height: 40px;
+color: #ffffff;
+font-family: "Quicksand";
+font-weight: 700;
+text-align: center;
+    border:2px solid #3b5999;
+    background-color: #3b5999;
+    color: white;
+    border-radius: 5px;
+    float:left;
+    width: 150px;
+    height: 50px;
+
+}
+
+#button #twit {
+    border:2px solid #55acee;
+    background-color: #55acee;
+    color: white;
+    border-radius: 5px;
+    float:right;
+    width:150px;
+    height: 50px;
+    padding-left: -10px;
+    font-size: 16px;
+line-height: 40px;
+color: #ffffff;
+font-family: "Quicksand";
+font-weight: 700;
+text-align: center;
+   
+}
+
+#button a:hover{
+    color:#3b5999;
+    text-decoration:none;
+
+}
+
+#h3 p{
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 400;
+    text-align: center;
+}
+
+/*=====form=========*/
+
+#form{
+    padding-top:30px;
+    margin-bottom: 120px;
+}
+
+#form  {
+    display: grid;
+    grid-template-rows: 50%  50%;
+    row-gap: 30px;
+}
+
+#form input{
+    width: 340px;
+}
+
+#form input[type="text"]{  
+    padding: 20px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+/*============submenu=============*/
+#pass{
+    padding-top:20px;
+}
+
+#pass a:hover{
+    text-decoration: none;
+}
+
+#password{
+    font-size: 12px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#account{
+    font-size: 12px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 400;
+    /*text-align: right;*/
+    padding-left: 110px;
+}
+
+
+/*======APPSON============*/
+
+
+#appson{
+    height: 400px;
+    background: #f5fcfd;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 120px;
+}
+#appson h1{
+    font-size: 36px;
+    line-height: 24px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#appson p{
+    width: 458px;
+    height: 73px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#appson .col-md-6 a{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+#appson  img:hover{
+    color: #0f7bff;
+    text-decoration: none;
+}
+
+
+
+#appson .col-md-2 h1{
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+
+#appson .col-md-2 a{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#appson .col-md-2 a:hover{
+    font-size: 16px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*======Footer=============*/
+
+#footer{
+    background-color: #f5fcfd;
+    height: 100px;
+    position: relative;
+}
+
+#footer #foo-left{
+    float: left;
+    padding-top: 35px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#footer #foo-right{
+    padding-top: 35px;
+    float: right;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Quicksand";
+    font-weight: 400;
+    text-align: right;
+}
+
+#footer #foo-right a{
+    padding-left: 30px;
+    color: #929292;
+
+}
+
+#footer #foo-right a:hover{
+    color: #0f7bff;
+    text-decoration: none;
+}
+
+#footer #top-arrow{
+    position: absolute;
+    float: right;
+    top: 25px;
+    right: 150px;
+    width: 45px;
+    height: 45px;
+    background-color: #0f7bff;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#footer #top-arrow img{
+    color: #ffffff;
+    padding-top: 11px;
+}
+
+
